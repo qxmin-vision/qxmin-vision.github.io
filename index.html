@@ -1,12 +1,77 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>我的主页</title>
+  <meta name="description" content="Personal research website of Qixing Min: deep learning algorithms, research projects, and publications.">
+  <title>Qixing Min | Deep Learning Research</title>
+  <style>
+    :root { color-scheme: light; --ink:#18273a; --muted:#58677a; --blue:#245ba6; --line:#dce3eb; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:#fafbfd; color:var(--ink); font:17px/1.75 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { max-width:900px; margin:auto; padding:32px 32px 48px; }
+    nav { display:flex; flex-wrap:wrap; gap:24px; padding-bottom:24px; border-bottom:1px solid var(--line); font-size:14px; }
+    a { color:var(--blue); text-underline-offset:4px; }
+    nav a { text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    a:focus-visible { outline:2px solid var(--blue); outline-offset:5px; }
+    header { padding:52px 0 36px; }
+    .eyebrow { margin:0 0 8px; color:var(--blue); font-size:12px; font-weight:700; letter-spacing:.13em; text-transform:uppercase; }
+    h1 { margin:0; font-size:clamp(36px,7vw,52px); line-height:1.2; letter-spacing:-.04em; }
+    .subtitle { color:var(--muted); margin:12px 0 20px; font-size:21px; }
+    .links { font-size:15px; }
+    section { padding:28px 0; border-top:1px solid var(--line); scroll-margin-top:24px; }
+    h2 { margin:0 0 14px; font-size:24px; letter-spacing:-.02em; }
+    p { margin:0 0 14px; }
+    p:last-child { margin-bottom:0; }
+    .empty { padding:20px 24px; background:#eef3f9; border-radius:8px; color:var(--muted); font-size:15px; }
+    footer { padding-top:28px; color:var(--muted); font-size:13px; }
+    @media(max-width:600px) { main { padding:24px 22px 36px; } nav { gap:14px 20px; } header { padding-top:36px; } }
+  </style>
 </head>
 <body>
-  <h1>你好，这是我的主页！</h1>
-  <p>欢迎访问。</p>
+  <main>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <header>
+      <p class="eyebrow">Personal research website</p>
+      <h1>Qixing Min</h1>
+      <p class="subtitle">Deep Learning &amp; Algorithm Research</p>
+      <p class="links"><a href="https://github.com/qxmin-vision">GitHub</a></p>
+      <!-- Add verified affiliation, email, Google Scholar, and OpenReview profile links here. -->
+    </header>
+    <section id="about">
+      <h2>About</h2>
+      <p>I received my master's degree from the School of Computer Science and Engineering, University of Electronic Science and Technology of China (UESTC).</p>
+      <p>I work on deep learning algorithms. This website documents my research projects, experimental results, and papers.</p>
+      <p>I use this space to share methods, findings, and reproducible implementations as my research develops.</p>
+    </section>
+    <section id="research">
+      <h2>Research</h2>
+      <p>My research interests center on deep learning and algorithm development, with an emphasis on evaluating methods through experiments and documenting their results.</p>
+      <!-- Add your specific research topics and current projects here. -->
+    </section>
+    <section id="publications">
+      <h2>Publications &amp; Preprints</h2>
+      <div class="empty">Papers, preprints, and their supporting materials will be listed here as they become available.</div>
+      <!-- For each real paper, add: title, authors, venue/year or accurate status, and verified Paper / Code / OpenReview links. -->
+    </section>
+    <section id="projects">
+      <h2>Projects &amp; Experimental Results</h2>
+      <div class="empty">Project summaries, algorithm implementations, and experimental results will be added here.</div>
+      <!-- For each real project, add: research question, method, datasets, metrics, findings, and repository link. -->
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>You can find my public code and project updates on <a href="https://github.com/qxmin-vision">GitHub</a>.</p>
+    </section>
+    <footer>Qixing Min · Personal research website</footer>
+  </main>
 </body>
 </html>
