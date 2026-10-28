@@ -1,1 +1,0 @@
-# qxmin.github.io
