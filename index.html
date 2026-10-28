@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Personal website of Qixing Min.">
   <title>Qixing Min | Personal Homepage</title>
+
   <style>
     :root {
       color-scheme: light;
@@ -135,8 +136,15 @@
         padding-top: 36px;
       }
     }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+    }
   </style>
 </head>
+
 <body>
   <main>
     <nav aria-label="Main navigation">
@@ -166,6 +174,9 @@
 
     <section id="research">
       <h2>Research</h2>
+      <div class="empty">
+        Research interests and ongoing work will be added here.
+      </div>
     </section>
 
     <section id="publications">
